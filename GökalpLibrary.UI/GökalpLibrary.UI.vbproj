@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GökalpLibrary.Modules.Main\GökalpLibrary.Modules.Main.vbproj" />
+    <ProjectReference Include="..\GökalpLibrary.Modules.GetAllBook\GökalpLibrary.Modules.GetAllBook.vbproj" />
   </ItemGroup>
 
 </Project>

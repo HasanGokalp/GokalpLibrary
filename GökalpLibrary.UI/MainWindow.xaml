@@ -10,8 +10,9 @@
         WindowStartupLocation="CenterOwner">
     <Grid>
 
-        <ContentControl prism:RegionManager.RegionName="ViewMain" HorizontalAlignment="Center" Margin="0,39,0,0" VerticalAlignment="Top" Height="385" Width="780"/>
+        <ContentControl prism:RegionManager.RegionName="MainContent" HorizontalAlignment="Center" Margin="0,39,0,0" VerticalAlignment="Top" Height="385" Width="780"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="GökalpLibrary" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" Command="{Binding NavigeteCommand}" HorizontalAlignment="Left" Margin="45,3,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
