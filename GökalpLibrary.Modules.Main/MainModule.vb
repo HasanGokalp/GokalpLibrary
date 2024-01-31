@@ -7,13 +7,18 @@ Imports Prism.Regions
 Public Class MainModule
     Implements IModule
 
+    Private ReadOnly _regionManager As IRegionManager
+
+    Public Sub New(regionManager As IRegionManager)
+        _regionManager = regionManager
+    End Sub
+
     Public Sub RegisterTypes(containerRegistry As IContainerRegistry) Implements IModule.RegisterTypes
-        containerRegistry.RegisterForNavigation(Of CreateBookModule)
-        containerRegistry.RegisterForNavigation(Of GetAllBookModule)
+        containerRegistry.RegisterForNavigation(Of ViewGetAllBook)
+        containerRegistry.RegisterForNavigation(Of ViewMain, ViewMainVM)
     End Sub
 
     Public Sub OnInitialized(containerProvider As IContainerProvider) Implements IModule.OnInitialized
-        Dim deneme = containerProvider.Resolve(Of IRegionManager)
-        deneme.RegisterViewWithRegion("ViewMain", GetType(ViewMain))
+        _regionManager.RegisterViewWithRegion("ViewMain", GetType(ViewMain))
     End Sub
 End Class
