@@ -1,0 +1,17 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GökalpLibrary.UI"
+        mc:Ignorable="d"
+        Title="GökalpLibrary" Height="450" Width="800"
+        xmlns:prism="http://prismlibrary.com/"
+        WindowStartupLocation="CenterOwner">
+    <Grid>
+
+        <ContentControl prism:RegionManager.RegionName="ViewMain" HorizontalAlignment="Center" Margin="0,39,0,0" VerticalAlignment="Top" Height="385" Width="780"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="GökalpLibrary" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ViewMain"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GökalpLibrary.Modules.Main"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Button x:Name="Btn_GetAll" Content="GetAllBook" HorizontalAlignment="Left" Margin="74,27,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="102"><Run Language="tr-tr" Text="MainModule"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <Button x:Name="Btn_CreateBook" Content="CreateBook" HorizontalAlignment="Left" Margin="623,27,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</UserControl>

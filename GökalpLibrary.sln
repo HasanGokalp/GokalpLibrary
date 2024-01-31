@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AD616473-C15B-46B0-A3B2-5EF4F6B1B49F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CA0A2B53-92E2-491C-B4FC-F7A6E9ED6C84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Insfracture", "Insfracture", "{7323C224-6950-4E9A-B5CE-4A71C036505C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{C8C2B589-6902-407E-95C5-0A25C596FA41}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.UI", "GökalpLibrary.UI\GökalpLibrary.UI.vbproj", "{D7C9827D-C04E-4D4A-9CD0-8861EB5449CD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Modules.CreateBook", "GökalpLibrary.Modules.CreateBook\GökalpLibrary.Modules.CreateBook.vbproj", "{12BD2CBA-D84C-4EDA-A181-412D6AFDEB9F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Modules.GetAllBook", "GökalpLibrary.Modules.GetAllBook\GökalpLibrary.Modules.GetAllBook.vbproj", "{B88FE292-8BD1-452D-8389-2A2BCD5501AA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Domain", "GökalpLibrary.Domain\GökalpLibrary.Domain.vbproj", "{73C2ADAB-7B41-4889-A9B3-C15FFE5DDDD4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Application", "GökalpLibrary.Application\GökalpLibrary.Application.vbproj", "{9121C4B6-A764-4C3A-B7A1-3F92772DEA1A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Insfracture", "GökalpLibrary.Insfracture\GökalpLibrary.Insfracture.vbproj", "{AB6285FB-6D73-4508-8837-7FB7557FEB05}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Persistence", "GökalpLibrary.Persistence\GökalpLibrary.Persistence.vbproj", "{BA2784B3-6F3B-4BDC-BDF7-AE699D0B7D74}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GökalpLibrary.Modules.Main", "GökalpLibrary.Modules.Main\GökalpLibrary.Modules.Main.vbproj", "{71CDEF0D-C065-47E7-BBE4-D63D63285E7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7C9827D-C04E-4D4A-9CD0-8861EB5449CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C9827D-C04E-4D4A-9CD0-8861EB5449CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C9827D-C04E-4D4A-9CD0-8861EB5449CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C9827D-C04E-4D4A-9CD0-8861EB5449CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BD2CBA-D84C-4EDA-A181-412D6AFDEB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BD2CBA-D84C-4EDA-A181-412D6AFDEB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BD2CBA-D84C-4EDA-A181-412D6AFDEB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BD2CBA-D84C-4EDA-A181-412D6AFDEB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88FE292-8BD1-452D-8389-2A2BCD5501AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88FE292-8BD1-452D-8389-2A2BCD5501AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88FE292-8BD1-452D-8389-2A2BCD5501AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88FE292-8BD1-452D-8389-2A2BCD5501AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C2ADAB-7B41-4889-A9B3-C15FFE5DDDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C2ADAB-7B41-4889-A9B3-C15FFE5DDDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C2ADAB-7B41-4889-A9B3-C15FFE5DDDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C2ADAB-7B41-4889-A9B3-C15FFE5DDDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9121C4B6-A764-4C3A-B7A1-3F92772DEA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9121C4B6-A764-4C3A-B7A1-3F92772DEA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9121C4B6-A764-4C3A-B7A1-3F92772DEA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9121C4B6-A764-4C3A-B7A1-3F92772DEA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6285FB-6D73-4508-8837-7FB7557FEB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6285FB-6D73-4508-8837-7FB7557FEB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6285FB-6D73-4508-8837-7FB7557FEB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6285FB-6D73-4508-8837-7FB7557FEB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA2784B3-6F3B-4BDC-BDF7-AE699D0B7D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA2784B3-6F3B-4BDC-BDF7-AE699D0B7D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA2784B3-6F3B-4BDC-BDF7-AE699D0B7D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA2784B3-6F3B-4BDC-BDF7-AE699D0B7D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CDEF0D-C065-47E7-BBE4-D63D63285E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CDEF0D-C065-47E7-BBE4-D63D63285E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CDEF0D-C065-47E7-BBE4-D63D63285E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CDEF0D-C065-47E7-BBE4-D63D63285E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8C2B589-6902-407E-95C5-0A25C596FA41} = {AD616473-C15B-46B0-A3B2-5EF4F6B1B49F}
+		{D7C9827D-C04E-4D4A-9CD0-8861EB5449CD} = {AD616473-C15B-46B0-A3B2-5EF4F6B1B49F}
+		{12BD2CBA-D84C-4EDA-A181-412D6AFDEB9F} = {C8C2B589-6902-407E-95C5-0A25C596FA41}
+		{B88FE292-8BD1-452D-8389-2A2BCD5501AA} = {C8C2B589-6902-407E-95C5-0A25C596FA41}
+		{73C2ADAB-7B41-4889-A9B3-C15FFE5DDDD4} = {CA0A2B53-92E2-491C-B4FC-F7A6E9ED6C84}
+		{9121C4B6-A764-4C3A-B7A1-3F92772DEA1A} = {CA0A2B53-92E2-491C-B4FC-F7A6E9ED6C84}
+		{AB6285FB-6D73-4508-8837-7FB7557FEB05} = {7323C224-6950-4E9A-B5CE-4A71C036505C}
+		{BA2784B3-6F3B-4BDC-BDF7-AE699D0B7D74} = {7323C224-6950-4E9A-B5CE-4A71C036505C}
+		{71CDEF0D-C065-47E7-BBE4-D63D63285E7D} = {C8C2B589-6902-407E-95C5-0A25C596FA41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB67E244-57FF-4873-8E53-752FC9A82142}
+	EndGlobalSection
+EndGlobal
