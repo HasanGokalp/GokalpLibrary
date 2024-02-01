@@ -13,10 +13,10 @@ Public Class GetAllBookModule
 
 
     Public Sub RegisterTypes(containerRegistry As IContainerRegistry) Implements IModule.RegisterTypes
-        containerRegistry.RegisterForNavigation(Of ViewGetAllBook)
+        containerRegistry.RegisterSingleton(Of CarService)
     End Sub
 
     Public Sub OnInitialized(containerProvider As IContainerProvider) Implements IModule.OnInitialized
-        _regionManager.RegisterViewWithRegion("GetAllBookRegion", GetType(ViewGetAllBook))
+
     End Sub
 End Class

@@ -14,7 +14,7 @@ Public Class MainModule
     End Sub
 
     Public Sub RegisterTypes(containerRegistry As IContainerRegistry) Implements IModule.RegisterTypes
-        containerRegistry.RegisterForNavigation(Of ViewGetAllBook)
+        containerRegistry.RegisterForNavigation(Of ViewGetAllBook, GetAllBookVM)
         containerRegistry.RegisterForNavigation(Of ViewMain, ViewMainVM)
     End Sub
 
